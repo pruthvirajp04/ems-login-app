@@ -1,0 +1,14 @@
+
+.loginTitle{
+  margin: 2rem;
+  color: rgb(72, 61, 61);
+  text-align: center;
+}
+.mainTitle{ 
+  text-align: center;
+}
+.mainContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
