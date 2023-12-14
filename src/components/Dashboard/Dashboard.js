@@ -1,7 +1,7 @@
 // src/Dashboard.js
 import React, { useState } from 'react';
 import styled from 'styled-components';
-
+import './Dashboard.css'
 const DashboardContainer = styled.div`
   display: flex;
   height: 100vh;
@@ -39,10 +39,10 @@ const Dashboard = () => {
         <ToggleButton onClick={toggleSidebar}>
           {isOpen ? 'Close' : 'Open'}
         </ToggleButton>
-        {/* Add your sidebar content here */}
+      
       </Sidebar>
       <MainContent>
-        {/* Add your main content here */}
+        
         <h1>Welcome to the Dashboard</h1>
       </MainContent>
     </DashboardContainer>
