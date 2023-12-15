@@ -1,0 +1,15 @@
+.closeImg{
+    width: 55px;
+    height: 30px;
+}
+.openImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 40px;
+    height: 40px;
+}
+.toggleClass h2{
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    }
