@@ -6,6 +6,7 @@ import FontAwesome from "react-fontawesome";
 import { Link } from "react-router-dom";
 const Sidebar = styled.div`
   width: 170px;
+  height: 100vh;
   background-color: #3498db;
   transition: width 0.3s ease;
 `;
@@ -16,7 +17,7 @@ const SideBar = () => {
     <>
       <Sidebar>
         <div className="dashboardIconBox">
-          <Link to="/" className="linkIcon">
+          <Link to="/dashboard" className="linkIcon">
             <FontAwesome className="iconClass" name="home" size="1x" />
             {/* <span>Dashboard </span> */}
           </Link>
@@ -29,7 +30,7 @@ const SideBar = () => {
         </div>
         <div className="dashboardIconBox">
           <FontAwesome className="" name="male" size="1x" />
-          <Link to="/dashboard" className="linkIcon">
+          <Link to="/studentstatus" className="linkIcon">
             <span className="stuStatusTitle">Student Status </span>
           </Link>
         </div>
@@ -59,7 +60,7 @@ const SideBar = () => {
         </div>
         <div className="dashboardIconBox">
           <FontAwesome className="" name="check" size="1x" />
-          <Link to="/dashboard" className="linkIcon">
+          <Link to="/omr" className="linkIcon">
             <span className="omrTitle">OMR Checking </span>
           </Link>
         </div>

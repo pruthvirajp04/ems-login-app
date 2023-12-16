@@ -14,12 +14,6 @@ const MainContent = styled.div`
   flex: 1;
   padding: 20px;
 `;
-//  <h2 className="homeIconBox">
-//    <FontAwesome className="homeIcon" name="home" size="1x" />
-//    <Link to="/dashboard" className="linkIcon">
-//      <span>Dashboard </span>
-//    </Link>
-//  </h2>;
 const Dashboard = () => {
   return (
     <>
