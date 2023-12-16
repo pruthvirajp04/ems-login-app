@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import axios from "axios";
 import { MDBBtn, MDBInput } from "mdb-react-ui-kit";
 import "./Login.css";
+import { Link } from "react-router-dom";
 function Login() {
   const [loginweb, setloginweb] = useState("");
   const [passweb, setpassweb] = useState("");
-  const [message, setMessage] = useState("");
+  const [, setMessage] = useState("");
 
   const handleLogin = async () => {
     try {
@@ -39,6 +40,7 @@ function Login() {
               className="img-fluid"
               height={500}
               width={500}
+              alt="Homeimage"
             />
           </div>
 
@@ -59,10 +61,11 @@ function Login() {
               value={passweb}
               onChange={(e) => setpassweb(e.target.value)}
             />
-
-            <MDBBtn className="mb-4 w-100" size="lg" onClick={handleLogin}>
-              Sign in
-            </MDBBtn>
+            <Link to="/dashboard">
+              <MDBBtn className="mb-4 w-100" size="lg" onClick={handleLogin}>
+                Sign in
+              </MDBBtn>
+            </Link>
           </div>
         </div>
       </div>
