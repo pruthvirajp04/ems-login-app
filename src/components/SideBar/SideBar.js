@@ -24,7 +24,7 @@ const SideBar = () => {
         </div>
         <div className="dashboardIconBox">
           <FontAwesome className="" name="male" size="1x" />
-          <Link to="/dashboard" className="linkIcon">
+          <Link to="/studentadmission" className="linkIcon">
             <span className="stuTitle">Student Admission </span>
           </Link>
         </div>
@@ -36,25 +36,25 @@ const SideBar = () => {
         </div>
         <div className="dashboardIconBox">
           <FontAwesome className="" name="male" size="1x" />
-          <Link to="/dashboard" className="linkIcon">
+          <Link to="/teacherregistration" className="linkIcon">
             <span className="teacherTitle">Teacher Registration </span>
           </Link>
         </div>
         <div className="dashboardIconBox">
           <FontAwesome className="" name="book" size="1x" />
-          <Link to="/dashboard" className="linkIcon">
+          <Link to="/courses" className="linkIcon">
             <span className="courseTitle">Courses </span>
           </Link>
         </div>
         <div className="dashboardIconBox">
           <FontAwesome className="" name="book" size="1x" />
-          <Link to="/dashboard" className="linkIcon">
+          <Link to="/createcourse" className="linkIcon">
             <span className="courseTitle">Create Courses </span>
           </Link>
         </div>
         <div className="dashboardIconBox">
           <FontAwesome className="" name="city" size="1x" />
-          <Link to="/dashboard" className="linkIcon">
+          <Link to="/batch" className="linkIcon">
             <span className="courseTitle">Batch </span>
           </Link>
         </div>
