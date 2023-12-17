@@ -6,7 +6,7 @@ import FontAwesome from "react-fontawesome";
 import { Link } from "react-router-dom";
 const Sidebar = styled.div`
   width: 200px;
-  height: 100vh;
+  height: 200vh;
   background-color: #3498db;
   transition: width 0.3s ease;
 `;
