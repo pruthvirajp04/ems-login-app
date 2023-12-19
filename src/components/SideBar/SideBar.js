@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Sidebar = styled.div`
   width: 200px;
   height: 200vh;
-  background-color: #3498db;
+  // background-color: #3498db;
   transition: width 0.3s ease;
 `;
 
